@@ -1,42 +1,121 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.body-home-color {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #9DC7FF, #D3DFEF);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fredoka-default {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.card {
-  padding: 2em;
+.nav-label {
+    margin: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+.nav-label a {
+    text-decoration: none;
+    font-family: "Fredoka", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #698BCB;
+    -webkit-text-stroke: 2px #5374A1;
+}
+
+.nav-right-menu {
+    justify-content: right;
+}
+
+.nav-right-menu ul {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav-right-menu ul li {
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav-right-menu ul li a.active {
+    background-color:#5773A0;
+    border-radius: 50px;
+    color: #ffffff !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-right-menu ul li a.active:hover {
+    text-decoration: none;
+}
+
+.nav-right-menu ul li a {
+    text-decoration: none;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#5374A1;
+    font-size: 19px;
+}
+
+.nav-right-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+section.cookie-b {
+    background-image: url('./assets/cookies.jpg');
+    max-width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cookie-p-1{
+    font-family: "Fredoka", sans-serif;
+    max-width: 900px;
+    width: 90%;
+    margin:0 auto;
+    position: relative;
+    top: 500px;
+    padding: 20px;
+}
+
+.cookie-p-1 h1 {
+    font-size: 80px;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.cookie-p-1 p {
+    text-align: left;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+section.short-message {
+    padding: 50px;
+    text-align: center;
+    max-width: 900px; 
+    width: 90%;
+    margin:0 auto;
+}
+
+section.short-message p{
+    font-family: "Fredoka", sans-serif;
+    font-size: 25px;
+    color: #5773A0;
 }
