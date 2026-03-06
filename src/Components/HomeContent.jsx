@@ -25,17 +25,17 @@ export default function HomeContent(){
                     </div>
                 </div>
             </section>
-            <section className="default-section-1">
-                <div className="default-section-container">
-                    <div className="default-section-left">
+            <div className="default-section-2">
+                <div className="default-section-2-container">
+                    <div className="default-section-2-left">
                         <img src={cookieImage4} className="img-df" />
                     </div>
-                    <div className="default-section-right-2">
+                    <div className="default-section-2-right">
                         <h1>Taste the Warmth of Fresh Baking</h1>
                         <p>Enjoy handcrafted breads, cakes, and pastries made fresh daily. At Hiro Bakery, every bite is baked to bring joy and comfort to your day.</p>
                     </div>
                 </div>
-            </section>
+            </div>
             <section className="section-b3-a">
                 <div className="container-b3-a">
                     <div className="content-b3-a">
