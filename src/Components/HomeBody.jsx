@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import Header from "./Header";
 import HomeContent from "./HomeContent"
+import Footer from "./Footer"
 
 export default function HomeBody(){
 
@@ -13,6 +14,7 @@ export default function HomeBody(){
         <>
             <Header />
             <HomeContent />
+            <Footer />
         </>
     )
 }
