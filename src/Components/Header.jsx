@@ -3,7 +3,7 @@ export default function Header(){
         <>
             <nav>
                 <div className="nav-label">
-                    <a href="#">HIRO BAKERY</a>
+                    <div className="logoInternal"></div>
                 </div>
                 <div className="nav-right-menu">
                     <ul>
