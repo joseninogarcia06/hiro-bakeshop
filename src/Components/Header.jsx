@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { useLocation } from "react-router-dom";
 import DefaultMenu from "./DefaultMenu";
 
 let topNavigation = [
@@ -27,6 +28,9 @@ let topNavigation = [
 export default function Header(){
 
     const [isToggleOn, setIsToggleOn] = useState(false);
+    const location = useLocation();
+
+    console.log(location.pathname);
 
     return (
         <>
@@ -40,7 +44,7 @@ export default function Header(){
                 <div className="nav-right-menu">
                     <ul>
                     {
-                        topNavigation.map((item) => { return (<DefaultMenu url={item.url} label={item.label}/>) })
+                        topNavigation.map((item) => { return (<DefaultMenu isActive={location.pathname === item.url} url={item.url} label={item.label}/>) })
                     }
                     </ul>
                 </div>
@@ -48,7 +52,7 @@ export default function Header(){
             <div className={isToggleOn ? "mobile-nav" : "hide-menu"}>
                 <ul>
                     {
-                        topNavigation.map((item) => (<DefaultMenu url={item.url} label={item.label} />))
+                        topNavigation.map((item) => (<DefaultMenu isActive={false} url={item.url} label={item.label} />))
                     }
                 </ul>
             </div>
