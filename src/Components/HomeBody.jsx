@@ -7,7 +7,6 @@ export default function HomeBody(){
 
     useEffect(() => {
         document.title = 'Hiro Bakery - Noveleta Cavite';
-        document.body.classList.add("body-home-color");
     }, [])
 
     return (

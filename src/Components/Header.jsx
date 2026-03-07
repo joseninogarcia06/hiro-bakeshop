@@ -7,7 +7,7 @@ let topNavigation = [
         label: "Home"
     },
     {
-        url: "",
+        url: "/our-story",
         label: "Our Story"
     },
     {

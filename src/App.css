@@ -396,3 +396,26 @@ footer {
 }
 
 
+.default-page-container {
+    margin:0 auto;
+    max-width: 900px;
+    width: 90%;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+    padding-bottom: 100px;
+}
+
+.default-page-container h2 {
+    margin-top: 50px;
+    font-size: 40px;
+    color:#5374A1;
+}
+
+.default-page-container p {
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 20px;
+    color: #5374A1;
+    line-height: 30px;
+}
+
