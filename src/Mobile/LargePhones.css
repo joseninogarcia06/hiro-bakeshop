@@ -232,8 +232,8 @@
     a.app-dropdown-btn {
         background-image: url('../assets/burger.svg');
         background-size: cover;
-        height: 40px;
-        width:40px;
+        height: 35px;
+        width:35px;
         display: block;
         cursor: pointer;
         margin-right: 10px;
@@ -270,5 +270,18 @@
 
     .mobile-nav ul li a:hover {
         text-decoration: underline;
+    }
+
+    .order-now-btn{
+        justify-self: end;
+        background-color: #5374A1;
+        border: 1px solid #698BCB;
+        padding: 15px;
+        border-radius: 50px;
+        cursor: pointer;
+        font-family: "Fredoka", sans-serif;
+        color: #ffffff;
+        font-size: 14px;
+        margin-top: 20px;
     }
 }

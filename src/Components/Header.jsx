@@ -12,7 +12,7 @@ let topNavigation = [
         label: "Our Story"
     },
     {
-        url: "",
+        url: "/products",
         label: "Products"
     },
     {
@@ -30,13 +30,15 @@ export default function Header(){
     const [isToggleOn, setIsToggleOn] = useState(false);
     const location = useLocation();
 
-    console.log(location.pathname);
+    function returnToHome(){
+        window.location = '/';
+    }
 
     return (
         <>
             <nav>
                 <div className="nav-label">
-                    <div className="logoInternal"></div>
+                    <div onClick={returnToHome} className="logoInternal"></div>
                 </div>
                 <div className="btn-dd">
                     <a onClick={() => setIsToggleOn(!isToggleOn)} className="app-dropdown-btn"></a>

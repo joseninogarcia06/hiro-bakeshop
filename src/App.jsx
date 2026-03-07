@@ -7,6 +7,7 @@ import HomeBody from './Components/HomeBody'
 import DefaultPage from './Components/DefaultPage'
 import { OUR_STORY_CONTENT } from './Content/OurStory'
 import { useEffect } from 'react'
+import Products from './Components/Products'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <Routes>
       <Route path='/' element={<HomeBody />} />
       <Route path='/our-story' element={<DefaultPage pageTitle="Our Story" content={OUR_STORY_CONTENT} />} />
+      <Route path='/products' element={<Products />} />
     </Routes>
   )
 }
