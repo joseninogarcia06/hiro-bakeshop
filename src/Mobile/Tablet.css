@@ -1,0 +1,274 @@
+@media (min-width: 768px) and (max-width: 1024px){
+    .nav-right-menu {
+        display: none;
+    }
+
+    .logoInternal {
+        background-image: url('../assets/hiro_bakery_logo.jpg');
+        background-position: center;
+        background-size:contain;
+        background-repeat: no-repeat;
+        height: 40px;
+        width: 110px;
+        display: block;
+        cursor: pointer;
+    }
+
+    section.cookie-b {
+        background-image: url('../assets/cookies2.jpg');
+        max-width: 100%;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .cookie-p-1{
+        font-family: "Fredoka", sans-serif;
+        max-width: 100%;
+        width: 100%;
+        margin:0 auto;
+        position: relative;
+        top: 100px;
+        padding: 20px;
+        animation: moveRight 3s;
+        box-sizing: border-box;
+    }
+
+    .cookie-p-1 h1 {
+        font-size: 50px;
+        color: #ffffff;
+        text-shadow: 2px 2px 5px #000000;
+    }
+
+    .cookie-p-1 p {
+        text-align: left;
+        font-size: 25px;
+        color: #ffffff;
+    }
+
+    section.short-message {
+        padding: 20;
+        text-align: center;
+        max-width: 100%;
+        width: 100%;
+        margin:0;
+        box-sizing: border-box;
+    }
+
+    section.short-message p{
+        font-family: "Fredoka", sans-serif;
+        font-size: 20px;
+        color: #5773A0;
+    }
+
+    .default-section-1{
+        height: 400px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        padding: 20px;
+    }
+
+    .default-section-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .default-section-left h1{
+        color:#5374A1;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .default-section-left {
+        order: 2;
+    }
+
+    .default-section-right{
+        justify-content: center;
+        align-items: center;
+        order: 1;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .img-df {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        justify-self: center;
+        box-shadow: 1px 1px 20px #626262;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .default-section-2{
+        height: 400px;
+        margin-top: 10px;
+        margin-bottom: 80px;
+        padding: 20px;
+    }
+
+    .default-section-2-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        width: 100%;
+        margin:0;
+    }
+
+    .default-section-2-right h1{
+        color:#5374A1;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .default-section-2-left {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-b3-a{
+        background-image: url("../assets/cookie5.jpg");
+        background-position: center;
+        background-size: cover;
+        padding: 20px;
+        height: 900px;
+        margin-top: 100px;
+    }
+
+    .container-b3-a {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .content-b3-a {
+        background-color: rgba(0,0,0,0.5);
+        padding: 20px;
+        width: 100%;
+        position: relative;
+        top: 10px;
+        margin-left: auto;
+        border-radius: 30px;
+        font-family: "Fredoka", sans-serif;
+        color: #ffffff;
+        box-sizing: border-box;
+    }
+
+    footer {
+        padding: 30px;
+        background-color: #5374A1;
+    }
+
+    .footer-container {
+        max-width: 100%;
+        width: 100%; 
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .footer-item {
+        padding: 5px;
+        font-family: "Fredoka", sans-serif;
+    }
+
+    .footer-item-multiple {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-family: "Fredoka", sans-serif;
+        padding: 5px;
+        margin-top: -35px;
+    }
+
+    .footer-item-multiple ul {
+        list-style: none;
+    }
+
+    .footer-item-multiple ul li {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        margin-top: 25px; 
+    }
+
+    .footer-item h3{
+        color: #ffffff;
+        font-size: 20px;
+        margin: 15px;
+    }
+
+    .footer-item ul {
+        list-style: none;
+        margin-top: 15px;
+    }
+
+    .footer-item ul li {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        margin-top: 25px;  
+    }
+
+    .footer-item ul li a{
+        text-decoration: none;
+        font-size: 18px;
+        color: #ffffff;
+    }
+
+    .footer-item ul li a:hover {
+        text-decoration: underline;
+    }
+
+    .footer-item p {
+        color: #ffffff;
+        margin: 15px;
+    }
+
+    .btn-dd {
+        justify-content: right;
+        display: block;
+    }
+
+    a.app-dropdown-btn {
+        background-image: url('../assets/burger.svg');
+        background-size: cover;
+        height: 40px;
+        width:40px;
+        display: block;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .responsive-background {
+        display: block;
+    }
+
+    .mobile-nav {
+        background-color: #5773A0;
+        display: block;
+        padding: 10px;
+        width: 100%;
+        font-family: "Fredoka", sans-serif;
+    }
+
+    .mobile-nav ul{
+        list-style: none;
+        margin: 5px;
+    }
+
+    .mobile-nav ul li {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .mobile-nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .mobile-nav ul li a:hover {
+        text-decoration: underline;
+    }
+}
